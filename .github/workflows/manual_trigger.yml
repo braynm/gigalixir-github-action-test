@@ -1,11 +1,9 @@
-name: My First Manual Workflow
+name: Production Deployment
 on: [workflow_dispatch]
 jobs:
   example:
     name: Example Job
     runs-on: ubuntu-latest
     steps:
-      - name: Clone Repository
-        uses: actions/checkout@v2
       - name: Yey
         run: echo "1"
