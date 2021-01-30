@@ -8,7 +8,7 @@ use Mix.Config
 config :pipsqueak, Pipsqueak.Repo,
   username: "postgres",
   password: "postgres",
-  #database: "pipsqueak_test#{System.get_env("MIX_TEST_PARTITION")}",
+  # database: "pipsqueak_test#{System.get_env("MIX_TEST_PARTITION")}",
   database: "pipsqueak_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
